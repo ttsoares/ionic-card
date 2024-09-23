@@ -1,0 +1,10 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+
+* {
+  font-family: "ku4";
+}
+
+.fundo {
+  background: url("https://picsum.photos/seed/picsum/200/300") center/cover;
+}
