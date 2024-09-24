@@ -26,8 +26,8 @@ const App = () => (
         <Route exact path="/home">
           <Home />
         </Route>
-
         <Redirect to="/home" />
+        <Route component={Home} />
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
