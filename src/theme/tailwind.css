@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: "ku4";
-  src: url("../../assets/fonts/KumbhSans-Regular.ttf");
+  src: url("/public/assets/fonts/KumbhSans-Regular.ttf");
   font-family: "ku7";
-  src: url("../../assets/fonts/KumbhSans-Bold.ttf");
+  src: url("/public/assets/fonts/KumbhSans-Bold.ttf");
 }

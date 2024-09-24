@@ -18,12 +18,12 @@ const Home = () => {
         <div className="bg-[#19a1ae] w-full h-full relative place-content-center">
           <img
             className="absolute -top-[60%] -left-[20%]"
-            src="/assets/images/bg-pattern-top.svg"
+            src="../assets/images/bg-pattern-top.svg"
             alt="top bg"
           />
           <img
             className="absolute -bottom-[90%] -right-[15%]"
-            src="/assets/images/bg-pattern-bottom.svg"
+            src="../assets/images/bg-pattern-bottom.svg"
             alt="bottom bg"
           />
           {/*  */}
@@ -32,7 +32,7 @@ const Home = () => {
             <IonRow className="h-[33%] w-full bg-white text-black ion-justify-content-center">
               <IonCol className="text-center">
                 <img
-                  src="/assets/images/image-victor.jpg"
+                  src="../assets/images/image-victor.jpg"
                   className="rounded-full absolute -top-12 right-0 left-0 m-auto border-4 border-white"
                 />
                 <h1 className="mt-20 font-bold">
