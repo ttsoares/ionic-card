@@ -36,12 +36,16 @@ const Home = () => {
                   className="rounded-full absolute -top-12 right-0 left-0 m-auto border-4 border-white"
                 />
                 <h1 className="mt-20 font-bold">
-                  Victor Crest <span className="font-light pl-2">26</span>
+                  Victor Crest{" "}
+                  <span className="text-[#6b7082] text-lg pl-2">26</span>
                 </h1>
-                <h2 className="text-sm font-light mt-2">London</h2>
+                <h2 className="text-sm text-[#6b7082] font-light mt-2 mb-8">
+                  London
+                </h2>
+                <p className="w-full h-0.5  bg-[#e8e9ec]"></p>
               </IonCol>
             </IonRow>
-            <IonRow className="h-[31%] w-full bg-white rounded-b-2xl  pt-10">
+            <IonRow className="h-[31%] w-full bg-white rounded-b-2xl  pt-12">
               <IonGrid className=" text-black">
                 <IonRow className="text-center font-bold pb-2">
                   <IonCol>
@@ -54,7 +58,7 @@ const Home = () => {
                     <h1>1.2K</h1>
                   </IonCol>
                 </IonRow>
-                <IonRow className="text-center font-light text-sm">
+                <IonRow className="text-center font-light text-xs text-[#6b7082]">
                   <IonCol>
                     <h2>Folowers</h2>
                   </IonCol>
